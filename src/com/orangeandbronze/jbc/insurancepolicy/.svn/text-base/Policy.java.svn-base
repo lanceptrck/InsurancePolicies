@@ -1,0 +1,21 @@
+package com.orangeandbronze.jbc.insurancepolicy;
+
+import java.math.BigDecimal;
+
+public abstract class Policy {
+	
+	private PolicyHolder policyHolder;
+	
+	public Policy(PolicyHolder policyHolder) {
+		this.policyHolder = policyHolder;
+	}
+	
+	public PolicyHolder getPolicyHolder() {
+		return policyHolder;
+	}
+
+	public abstract BigDecimal getPremium();
+
+	
+
+}

@@ -1,0 +1,5 @@
+package com.orangeandbronze.jbc.insurancepolicy.vehicle;
+
+public enum BodyType {
+	SEDAN, SUV
+}
